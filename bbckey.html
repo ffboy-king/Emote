@@ -1,0 +1,2037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>BIG BULL CHEATS | Premium Key System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: #0a0a0a;
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+            -webkit-tap-highlight-color: transparent;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(255, 215, 0, 0.05) 0%, transparent 20%),
+                radial-gradient(circle at 90% 80%, rgba(255, 215, 0, 0.05) 0%, transparent 20%);
+        }
+        
+        .top-header {
+            background: rgba(10, 10, 10, 0.95);
+            border-bottom: 2px solid #ffd700;
+            padding: 15px 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+        
+        .header-title {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 900;
+            margin-bottom: 8px;
+            text-shadow: 0 0 30px rgba(255, 215, 0, 0.3);
+        }
+        
+        .header-status {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            color: #00ff00;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+        
+        .green-light {
+            width: 12px;
+            height: 12px;
+            background: #00ff00;
+            border-radius: 50%;
+            box-shadow: 0 0 15px #00ff00;
+            animation: pulse-green 2s infinite;
+        }
+        
+        @keyframes pulse-green {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        .mobile-container {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .rate-limit-info {
+            background: rgba(30, 30, 30, 0.9);
+            border: 2px solid #ffd700;
+            border-radius: 15px;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .rate-limit-text {
+            color: #ffd700;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .timer-display {
+            font-size: 1.3rem;
+            font-weight: 900;
+            color: #00ff00;
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        }
+        
+        .get-password-section {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .get-password-btn {
+            background: linear-gradient(135deg, #ffd700 0%, #d4af37 100%);
+            color: #000;
+            border: none;
+            border-radius: 50px;
+            padding: 20px 40px;
+            font-size: 1.3rem;
+            font-weight: 900;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            width: 100%;
+            max-width: 350px;
+            box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
+        }
+        
+        .get-password-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255, 215, 0, 0.5);
+        }
+        
+        .get-password-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none !important;
+            box-shadow: none !important;
+        }
+        
+        .btn-icon {
+            font-size: 1.5rem;
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+        
+        .redirect-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .redirect-overlay.active {
+            display: flex;
+        }
+        
+        .redirect-content {
+            max-width: 350px;
+            width: 100%;
+            background: rgba(20, 20, 20, 0.95);
+            border: 2px solid #ffd700;
+            border-radius: 20px;
+            padding: 30px;
+        }
+        
+        .redirect-icon {
+            font-size: 3rem;
+            color: #ffd700;
+            margin-bottom: 20px;
+            animation: pulse 1.5s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        
+        .redirect-title {
+            color: #ffd700;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .redirect-message {
+            color: #fff;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+        
+        .countdown-timer {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: #ffd700;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+            margin: 20px 0;
+        }
+        
+        .redirect-info {
+            color: #aaa;
+            font-size: 0.9rem;
+            margin-top: 20px;
+        }
+        
+        .password-section {
+            background: rgba(30, 30, 30, 0.9);
+            border-radius: 15px;
+            padding: 25px;
+            margin: 30px 0;
+            border: 2px solid rgba(255, 215, 0, 0.3);
+            text-align: center;
+        }
+        
+        .section-title {
+            color: #ffd700;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .password-input {
+            width: 100%;
+            padding: 18px;
+            background: rgba(0, 0, 0, 0.5);
+            border: 2px solid #ffd700;
+            border-radius: 12px;
+            color: white;
+            font-size: 1.1rem;
+            text-align: center;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+        
+        .generate-btn {
+            background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%);
+            color: white;
+            border: none;
+            border-radius: 50px;
+            padding: 18px 35px;
+            font-size: 1.2rem;
+            font-weight: 900;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            width: 100%;
+            max-width: 350px;
+            box-shadow: 0 10px 30px rgba(255, 68, 68, 0.3);
+        }
+        
+        .generate-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255, 68, 68, 0.5);
+        }
+        
+        .generate-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none !important;
+            box-shadow: none !important;
+        }
+        
+        .log-section {
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid #ffd700;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        
+        .log-title {
+            color: #ffd700;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .log-entry {
+            padding: 5px 0;
+            border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+            color: #00ff00;
+            animation: fadeIn 0.3s ease;
+        }
+        
+        .log-entry.error {
+            color: #ff4444;
+        }
+        
+        .log-entry.info {
+            color: #ffd700;
+        }
+        
+        .log-entry.warning {
+            color: #ffa500;
+        }
+        
+        .log-entry.admin {
+            color: #00ffff;
+        }
+        
+        .log-time {
+            color: #666;
+            margin-right: 8px;
+        }
+        
+        .key-display-container {
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(40, 40, 40, 0.9) 100%);
+            border-radius: 20px;
+            padding: 25px;
+            margin: 30px 0;
+            border: 2px solid rgba(255, 215, 0, 0.3);
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        .key-display-container.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .key-title {
+            color: #ffd700;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .key-box {
+            background: rgba(0, 0, 0, 0.5);
+            border: 2px solid #ffd700;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 15px 0;
+        }
+        
+        .key-value {
+            font-family: 'Courier New', monospace;
+            font-size: 1.4rem;
+            color: #fff;
+            letter-spacing: 3px;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+        }
+        
+        .copy-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .copy-btn {
+            background: rgba(255, 215, 0, 0.1);
+            color: #ffd700;
+            border: 2px solid #ffd700;
+            border-radius: 50px;
+            padding: 15px 40px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .copy-btn:hover {
+            background: rgba(255, 215, 0, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .rate-limit-popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            padding: 20px;
+        }
+        
+        .rate-limit-popup.active {
+            display: flex;
+        }
+        
+        .rate-limit-content {
+            background: rgba(20, 20, 20, 0.95);
+            border: 2px solid #ffa500;
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            max-width: 350px;
+            width: 100%;
+        }
+        
+        .rate-limit-icon {
+            font-size: 3rem;
+            color: #ffa500;
+            margin-bottom: 20px;
+        }
+        
+        .rate-limit-title {
+            color: #ffa500;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .rate-limit-timer {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: #ffa500;
+            margin: 20px 0;
+            text-shadow: 0 0 20px rgba(255, 165, 0, 0.5);
+        }
+        
+        .rate-limit-message {
+            color: #fff;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        
+        .wrong-password-popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            padding: 20px;
+        }
+        
+        .wrong-password-popup.active {
+            display: flex;
+        }
+        
+        .popup-content {
+            background: rgba(20, 20, 20, 0.95);
+            border: 2px solid #ff4444;
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            max-width: 350px;
+            width: 100%;
+        }
+        
+        .popup-icon {
+            font-size: 3rem;
+            color: #ff4444;
+            margin-bottom: 20px;
+        }
+        
+        .popup-title {
+            color: #ff4444;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .popup-message {
+            color: #fff;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+        
+        .admin-button-bottom {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 100;
+        }
+        
+        .admin-btn-small {
+            background: rgba(255, 68, 68, 0.1);
+            color: #ff4444;
+            border: 2px solid #ff4444;
+            border-radius: 50px;
+            padding: 10px 20px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .admin-btn-small:hover {
+            background: rgba(255, 68, 68, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .admin-panel {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            padding: 20px;
+        }
+        
+        .admin-panel.active {
+            display: flex;
+        }
+        
+        .admin-content {
+            background: rgba(20, 20, 20, 0.95);
+            border: 2px solid #ff4444;
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 400px;
+            width: 100%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        
+        .admin-title {
+            color: #ff4444;
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .close-admin {
+            background: none;
+            border: none;
+            color: #ff4444;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        
+        .admin-form {
+            margin-bottom: 25px;
+        }
+        
+        .admin-input {
+            width: 100%;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid #ff4444;
+            border-radius: 10px;
+            color: white;
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+        
+        .admin-login-btn {
+            background: #ff4444;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 15px;
+            width: 100%;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .admin-dashboard {
+            display: none;
+        }
+        
+        .admin-dashboard.active {
+            display: block;
+        }
+        
+        .password-settings {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ffd700;
+        }
+        
+        .settings-title {
+            color: #ffd700;
+            font-size: 1rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .password-change-input {
+            width: 100%;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid #ffd700;
+            border-radius: 10px;
+            color: white;
+            margin-bottom: 15px;
+        }
+        
+        .shortlink-settings {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ffd700;
+        }
+        
+        .shortlink-input {
+            width: 100%;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid #ffd700;
+            border-radius: 10px;
+            color: white;
+            margin-bottom: 15px;
+            font-family: monospace;
+        }
+        
+        .keys-management {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ffd700;
+        }
+        
+        .keys-textarea {
+            width: 100%;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid #ffd700;
+            border-radius: 10px;
+            color: white;
+            margin-bottom: 15px;
+            font-family: 'Courier New', monospace;
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        .keys-list {
+            max-height: 200px;
+            overflow-y: auto;
+            margin: 15px 0;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        
+        .key-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            font-family: 'Courier New', monospace;
+        }
+        
+        .key-item:last-child {
+            border-bottom: none;
+        }
+        
+        .key-text {
+            color: #ffd700;
+        }
+        
+        .key-status {
+            font-size: 0.8rem;
+            padding: 3px 8px;
+            border-radius: 4px;
+        }
+        
+        .status-used {
+            background: rgba(0, 255, 0, 0.1);
+            color: #00ff00;
+        }
+        
+        .status-available {
+            background: rgba(255, 215, 0, 0.1);
+            color: #ffd700;
+        }
+        
+        .danger-zone {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            border: 2px solid #ff4444;
+        }
+        
+        .danger-title {
+            color: #ff4444;
+            font-size: 1rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .danger-warning {
+            color: #ffa500;
+            background: rgba(255, 165, 0, 0.1);
+            border-left: 3px solid #ffa500;
+            padding: 10px;
+            margin: 15px 0;
+            font-size: 0.9rem;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .clear-keys-btn {
+            background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 15px;
+            width: 100%;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .clear-keys-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(255, 68, 68, 0.3);
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px 0 80px;
+            margin-top: 30px;
+            color: #777;
+            font-size: 0.85rem;
+        }
+        
+        .developer-info {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: rgba(255, 215, 0, 0.1);
+            border: 1px solid #ffd700;
+            border-radius: 50px;
+            padding: 15px 30px;
+            color: #ffd700;
+            font-weight: 700;
+            text-decoration: none;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .developer-info:hover {
+            background: rgba(255, 215, 0, 0.2);
+            transform: translateY(-3px);
+        }
+        
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.3);
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #ffd700;
+            border-radius: 3px;
+        }
+        
+        @media (max-width: 480px) {
+            .mobile-container {
+                padding: 15px;
+            }
+            
+            .header-title {
+                font-size: 2rem;
+            }
+            
+            .get-password-btn,
+            .generate-btn {
+                padding: 18px 30px;
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Redirect Overlay -->
+    <div class="redirect-overlay" id="redirectOverlay">
+        <div class="redirect-content">
+            <div class="redirect-icon">
+                <i class="fas fa-external-link-alt"></i>
+            </div>
+            <div class="redirect-title">REDIRECTING...</div>
+            <div class="redirect-message">
+                You will be redirected in <span class="countdown-timer" id="countdownTimer">5</span> seconds
+            </div>
+            <div class="redirect-info">
+                Complete the verification to get your password
+            </div>
+        </div>
+    </div>
+    
+    <!-- Rate Limit Popup -->
+    <div class="rate-limit-popup" id="rateLimitPopup">
+        <div class="rate-limit-content">
+            <div class="rate-limit-icon">
+                <i class="fas fa-clock"></i>
+            </div>
+            <div class="rate-limit-title">RATE LIMIT EXCEEDED</div>
+            <div class="rate-limit-message">
+                1 key per hour limit applied.<br>
+                Please wait before generating another key.
+            </div>
+            <div class="rate-limit-timer" id="rateLimitTimer">00:00:00</div>
+            <div style="color: #aaa; font-size: 0.9rem; margin-top: 15px;">
+                IP-based restriction active
+            </div>
+        </div>
+    </div>
+    
+    <!-- Top Header -->
+    <div class="top-header">
+        <div class="header-title">BIG BULL CHEATS</div>
+        <div class="header-status">
+            <div class="green-light"></div>
+            <span>SYSTEM ONLINE</span>
+        </div>
+    </div>
+    
+    <!-- Wrong Password Popup -->
+    <div class="wrong-password-popup" id="wrongPasswordPopup">
+        <div class="popup-content">
+            <div class="popup-icon">
+                <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="popup-title">WRONG PASSWORD</div>
+            <div class="popup-message">
+                Click the button below to get the correct password from the shortlink.
+            </div>
+            <button class="get-password-btn" onclick="closeWrongPasswordPopup()" style="margin-bottom: 15px;">
+                <i class="fas fa-key"></i>
+                GET ACCESS PASSWORD
+            </button>
+        </div>
+    </div>
+    
+    <!-- Admin Panel -->
+    <div class="admin-panel" id="adminPanel">
+        <div class="admin-content">
+            <div class="admin-title">
+                <span>ADMIN CONTROL PANEL</span>
+                <button class="close-admin" onclick="closeAdminPanel()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div id="adminLoginForm">
+                <div class="admin-form">
+                    <input 
+                        type="password" 
+                        class="admin-input" 
+                        id="adminPassword" 
+                        placeholder="Enter Admin Password"
+                        autocomplete="off"
+                    >
+                    <button class="admin-login-btn" onclick="loginAdmin()">
+                        <i class="fas fa-sign-in-alt"></i>
+                        LOGIN
+                    </button>
+                </div>
+            </div>
+            
+            <div class="admin-dashboard" id="adminDashboard">
+                <!-- Google Sheets Status -->
+                <div class="password-settings">
+                    <div class="settings-title">
+                        <i class="fab fa-google"></i>
+                        GOOGLE SHEETS CONNECTION ✅
+                    </div>
+                    <div style="color: #00ff00; font-size: 0.9rem; margin-bottom: 15px;">
+                        ✅ Connected to Google Sheets<br>
+                        Sheet: keys • READ/WRITE Active
+                    </div>
+                </div>
+                
+                <!-- Admin IP Whitelist -->
+                <div class="password-settings">
+                    <div class="settings-title">
+                        <i class="fas fa-user-shield"></i>
+                        ADMIN IP WHITELIST
+                    </div>
+                    <input 
+                        type="text" 
+                        class="password-change-input" 
+                        id="adminIP" 
+                        placeholder="Admin IP Address"
+                        value="152.59.147.200"
+                    >
+                    <div style="color: #00ff00; font-size: 0.9rem; margin-bottom: 15px;">
+                        ⚡ This IP has NO rate limits
+                    </div>
+                    <button class="admin-login-btn" onclick="updateAdminIP()" style="background: #9C27B0;">
+                        <i class="fas fa-save"></i>
+                        UPDATE ADMIN IP
+                    </button>
+                </div>
+                
+                <!-- Password Settings -->
+                <div class="password-settings">
+                    <div class="settings-title">
+                        <i class="fas fa-key"></i>
+                        CHANGE USER PASSWORD
+                    </div>
+                    <input 
+                        type="text" 
+                        class="password-change-input" 
+                        id="userPasswordInput" 
+                        placeholder="Current User Password"
+                        value="BULL2025"
+                    >
+                    <input 
+                        type="text" 
+                        class="password-change-input" 
+                        id="newUserPassword" 
+                        placeholder="New User Password"
+                    >
+                    <button class="admin-login-btn" onclick="changeUserPassword()" style="background: #ffd700; color: #000;">
+                        <i class="fas fa-save"></i>
+                        UPDATE USER PASSWORD
+                    </button>
+                </div>
+                
+                <!-- Shortlink Settings -->
+                <div class="shortlink-settings">
+                    <div class="settings-title">
+                        <i class="fas fa-link"></i>
+                        SHORTLINK URL
+                    </div>
+                    <input 
+                        type="url" 
+                        class="shortlink-input" 
+                        id="shortlinkUrl" 
+                        placeholder="https://your-shortlink.com"
+                    >
+                    <button class="admin-login-btn" onclick="saveShortlink()" style="background: #2196F3;">
+                        <i class="fas fa-save"></i>
+                        SAVE SHORTLINK
+                    </button>
+                </div>
+                
+                <!-- Keys Management -->
+                <div class="keys-management">
+                    <div class="settings-title">
+                        <i class="fas fa-database"></i>
+                        MANAGE KEYS (Google Sheets)
+                    </div>
+                    <textarea 
+                        class="keys-textarea" 
+                        id="adminKeysInput" 
+                        placeholder="Add keys (one per line):&#10;BBC ABC 123&#10;BBC DEF 456&#10;BBC GHI 789"
+                    ></textarea>
+                    <div style="color: #00ff00; font-size: 0.9rem; margin-bottom: 15px;">
+                        ✅ Keys are saved to Google Sheets automatically
+                    </div>
+                    <button class="admin-login-btn" onclick="addKeys()" style="background: #4CAF50;">
+                        <i class="fas fa-plus"></i>
+                        ADD KEYS TO GOOGLE SHEETS
+                    </button>
+                    
+                    <div class="settings-title" style="margin-top: 20px;">
+                        <i class="fas fa-list"></i>
+                        KEYS STATUS - TOTAL: <span id="totalKeysCount">0</span>
+                    </div>
+                    <div class="keys-list" id="keysList">
+                        <!-- Keys will appear here -->
+                    </div>
+                </div>
+                
+                <!-- Danger Zone - Clear All Keys -->
+                <div class="danger-zone">
+                    <div class="danger-title">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        DANGER ZONE - CLEAR ALL KEYS
+                    </div>
+                    <div class="danger-warning">
+                        ⚠️ WARNING: This will delete ALL keys from Google Sheets!
+                    </div>
+                    <button class="clear-keys-btn" onclick="clearAllKeys()">
+                        <i class="fas fa-trash-alt"></i>
+                        CLEAR ALL KEYS FROM GOOGLE SHEETS
+                    </button>
+                </div>
+                
+                <!-- Logout -->
+                <div style="text-align: center; margin-top: 25px;">
+                    <button class="admin-login-btn" onclick="logoutAdmin()" style="background: #666;">
+                        <i class="fas fa-sign-out-alt"></i>
+                        LOGOUT
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="mobile-container">
+        <!-- Rate Limit Info -->
+        <div class="rate-limit-info">
+            <div class="rate-limit-text">
+                <i class="fas fa-shield-alt"></i>
+                1 KEY PER HOUR LIMIT
+            </div>
+            <div class="timer-display" id="nextKeyTimer">READY</div>
+            <div style="color: #aaa; font-size: 0.8rem; margin-top: 8px;">
+                IP-based restriction active
+            </div>
+        </div>
+        
+        <!-- Get Password Button -->
+        <div class="get-password-section">
+            <button class="get-password-btn" onclick="getPassword()" id="getPasswordBtn">
+                <i class="fas fa-key btn-icon"></i>
+                GET ACCESS PASSWORD
+            </button>
+        </div>
+        
+        <!-- Password Input Section -->
+        <div class="password-section">
+            <div class="section-title">
+                <i class="fas fa-lock"></i>
+                ENTER PASSWORD TO GENERATE KEY
+            </div>
+            <input 
+                type="password" 
+                class="password-input" 
+                id="userPassword" 
+                placeholder="Enter Password"
+                autocomplete="off"
+            >
+            <button class="generate-btn" onclick="generateKey()" id="generateBtn">
+                <i class="fas fa-bolt"></i>
+                GENERATE KEY
+            </button>
+        </div>
+        
+        <!-- Log Section (Below Password) -->
+        <div class="log-section">
+            <div class="log-title">
+                <i class="fas fa-terminal"></i>
+                SYSTEM LOGS
+            </div>
+            <div id="systemLogs">
+                <!-- Logs will appear here -->
+            </div>
+        </div>
+        
+        <!-- Key Display -->
+        <div class="key-display-container" id="keyDisplay">
+            <div class="key-title">
+                <i class="fas fa-key"></i>
+                YOUR GENERATED KEY
+            </div>
+            
+            <div class="key-box">
+                <div class="key-value" id="keyValue">BBC XXX XXX</div>
+            </div>
+            
+            <div class="copy-section">
+                <button class="copy-btn" onclick="copyKey()" id="copyBtn">
+                    <i class="far fa-copy"></i>
+                    COPY KEY
+                </button>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <a href="https://t.me/bigbullabhi880" target="_blank" class="developer-info">
+                <i class="fab fa-telegram"></i>
+                Telegram: @bigbullabhi880
+            </a>
+            <div class="copyright">
+                © 2024 BIG BULL CHEATS<br>
+                Google Sheets Database • Live Sync
+            </div>
+        </div>
+    </div>
+    
+    <!-- Admin Button (Bottom Right) -->
+    <div class="admin-button-bottom">
+        <button class="admin-btn-small" onclick="openAdminPanel()">
+            <i class="fas fa-user-shield"></i>
+            ADMIN
+        </button>
+    </div>
+
+    <script>
+        // ============================================
+        // GOOGLE SHEETS CONFIGURATION
+        // ============================================
+        const GOOGLE_SHEETS_CONFIG = {
+            sheetId: '12wEvIdAK-PmzZLHx21LUTU2Nu9SUFiOSXy4FBElRqIo',
+            sheetName: 'keys',
+            // OAuth 2.0 Client ID (YOURS)
+            clientId: '373425848973-fkcju6ishb2lq9m844j535p1bd8qls5g.apps.googleusercontent.com',
+            // API Key for READ operations
+            apiKey: 'AIzaSyBgumBHaWS04TNGS7STW71MFeSLggpj7S0',
+            // Scopes for Google Sheets
+            scopes: 'https://www.googleapis.com/auth/spreadsheets',
+            // Discovery docs
+            discoveryDocs: ['https://sheets.googleapis.com/$discovery/rest?version=v4']
+        };
+        
+        // ============================================
+        // SYSTEM CONFIGURATION
+        // ============================================
+        const CONFIG = {
+            shortlinkUrl: 'https://t.me/+bUldVt3yKEM2Yjhl',
+            adminPassword: 'ADMIN123',
+            userPassword: 'BULL2025',
+            keys: [],
+            rateLimitHours: 1,
+            adminIPs: ['152.59.147.200']
+        };
+        
+        // DOM Elements
+        const userPassword = document.getElementById('userPassword');
+        const generateBtn = document.getElementById('generateBtn');
+        const getPasswordBtn = document.getElementById('getPasswordBtn');
+        const keyDisplay = document.getElementById('keyDisplay');
+        const keyValue = document.getElementById('keyValue');
+        const copyBtn = document.getElementById('copyBtn');
+        const systemLogs = document.getElementById('systemLogs');
+        const wrongPasswordPopup = document.getElementById('wrongPasswordPopup');
+        const redirectOverlay = document.getElementById('redirectOverlay');
+        const rateLimitPopup = document.getElementById('rateLimitPopup');
+        const countdownTimer = document.getElementById('countdownTimer');
+        const rateLimitTimer = document.getElementById('rateLimitTimer');
+        const nextKeyTimer = document.getElementById('nextKeyTimer');
+        const adminPanel = document.getElementById('adminPanel');
+        const adminPassword = document.getElementById('adminPassword');
+        const adminDashboard = document.getElementById('adminDashboard');
+        const adminLoginForm = document.getElementById('adminLoginForm');
+        const adminKeysInput = document.getElementById('adminKeysInput');
+        const shortlinkUrl = document.getElementById('shortlinkUrl');
+        const userPasswordInput = document.getElementById('userPasswordInput');
+        const newUserPassword = document.getElementById('newUserPassword');
+        const adminIP = document.getElementById('adminIP');
+        const keysList = document.getElementById('keysList');
+        const totalKeysCount = document.getElementById('totalKeysCount');
+        
+        let userIP = 'unknown';
+        let isAdminIP = false;
+        let gapiInited = false;
+        let gisInited = false;
+        let tokenClient;
+        
+        // ============================================
+        // INITIALIZATION
+        // ============================================
+        document.addEventListener('DOMContentLoaded', () => {
+            loadSettings();
+            checkAdminSession();
+            startFakeLogs();
+            getUserIP();
+            checkRateLimit();
+            
+            addLog('System initialized...');
+            addLog('Loading Google Sheets...');
+            
+            userPasswordInput.value = CONFIG.userPassword;
+            adminIP.value = CONFIG.adminIPs[0];
+            
+            updateRateLimitTimer();
+            
+            // Load Google APIs
+            loadGoogleAPIs();
+        });
+        
+        // ============================================
+        // GOOGLE APIS LOADING
+        // ============================================
+        function loadGoogleAPIs() {
+            // Load Google API Client library
+            const gapiScript = document.createElement('script');
+            gapiScript.src = 'https://apis.google.com/js/api.js';
+            gapiScript.onload = () => {
+                gapi.load('client', initializeGapiClient);
+            };
+            document.head.appendChild(gapiScript);
+            
+            // Load Google Identity Services library
+            const gisScript = document.createElement('script');
+            gisScript.src = 'https://accounts.google.com/gsi/client';
+            gisScript.onload = initializeGisClient;
+            document.head.appendChild(gisScript);
+        }
+        
+        async function initializeGapiClient() {
+            try {
+                await gapi.client.init({
+                    apiKey: GOOGLE_SHEETS_CONFIG.apiKey,
+                    discoveryDocs: GOOGLE_SHEETS_CONFIG.discoveryDocs,
+                });
+                gapiInited = true;
+                addLog('Google API client initialized');
+                // Try to load keys after API is ready
+                loadKeysFromGoogleSheets();
+            } catch (error) {
+                addLog('Google API initialization failed: ' + error.message, 'error');
+                loadKeysFromLocalStorage();
+            }
+        }
+        
+        function initializeGisClient() {
+            tokenClient = google.accounts.oauth2.initTokenClient({
+                client_id: GOOGLE_SHEETS_CONFIG.clientId,
+                scope: GOOGLE_SHEETS_CONFIG.scopes,
+                callback: '', // Will be set later
+            });
+            gisInited = true;
+            addLog('Google Identity Services initialized');
+        }
+        
+        // ============================================
+        // GOOGLE SHEETS FUNCTIONS
+        // ============================================
+        async function loadKeysFromGoogleSheets() {
+            try {
+                if (!gapiInited) {
+                    throw new Error('Google API not initialized');
+                }
+                
+                addLog('Loading keys from Google Sheets...');
+                
+                const response = await gapi.client.sheets.spreadsheets.values.get({
+                    spreadsheetId: GOOGLE_SHEETS_CONFIG.sheetId,
+                    range: GOOGLE_SHEETS_CONFIG.sheetName,
+                });
+                
+                const rows = response.result.values || [];
+                CONFIG.keys = [];
+                
+                // Skip header row (row 1)
+                for (let i = 1; i < rows.length; i++) {
+                    const row = rows[i];
+                    if (row[0] && row[0].trim()) {
+                        CONFIG.keys.push({
+                            key: row[0].trim(),
+                            used: row[1] === 'TRUE' || false,
+                            usedBy: row[2] || '',
+                            usedAt: row[3] || '',
+                            userIP: row[4] || '',
+                            isAdmin: row[5] === 'TRUE' || false,
+                            createdAt: row[6] || new Date().toISOString()
+                        });
+                    }
+                }
+                
+                addLog(`Loaded ${CONFIG.keys.length} keys from Google Sheets`);
+                updateTotalKeysCount();
+                updateAdminPanel();
+                
+            } catch (error) {
+                console.error('Google Sheets load error:', error);
+                addLog('Google Sheets connection failed', 'error');
+                addLog('Using local storage...', 'warning');
+                loadKeysFromLocalStorage();
+            }
+        }
+        
+        async function saveKeysToGoogleSheets() {
+            try {
+                if (!gapiInited || !gisInited) {
+                    throw new Error('Google APIs not initialized');
+                }
+                
+                // Check if we have token
+                if (!gapi.client.getToken()) {
+                    await getAccessToken();
+                }
+                
+                const values = [
+                    ['key', 'used', 'usedBy', 'usedAt', 'userIP', 'isAdmin', 'createdAt']
+                ];
+                
+                CONFIG.keys.forEach(key => {
+                    values.push([
+                        key.key,
+                        key.used ? 'TRUE' : 'FALSE',
+                        key.usedBy || '',
+                        key.usedAt || '',
+                        key.userIP || '',
+                        key.isAdmin ? 'TRUE' : 'FALSE',
+                        key.createdAt || new Date().toISOString()
+                    ]);
+                });
+                
+                const response = await gapi.client.sheets.spreadsheets.values.update({
+                    spreadsheetId: GOOGLE_SHEETS_CONFIG.sheetId,
+                    range: GOOGLE_SHEETS_CONFIG.sheetName,
+                    valueInputOption: 'RAW',
+                    resource: { values }
+                });
+                
+                addLog('Keys saved to Google Sheets');
+                return true;
+                
+            } catch (error) {
+                console.error('Google Sheets save error:', error);
+                addLog(`Failed to save to Google Sheets: ${error.message}`, 'error');
+                
+                // Fallback: Try using API key with append method
+                try {
+                    return await saveKeysViaAPIKey();
+                } catch (apiError) {
+                    saveKeysToLocalStorage();
+                    return false;
+                }
+            }
+        }
+        
+        async function saveKeysViaAPIKey() {
+            try {
+                const values = [
+                    ['key', 'used', 'usedBy', 'usedAt', 'userIP', 'isAdmin', 'createdAt']
+                ];
+                
+                CONFIG.keys.forEach(key => {
+                    values.push([
+                        key.key,
+                        key.used ? 'TRUE' : 'FALSE',
+                        key.usedBy || '',
+                        key.usedAt || '',
+                        key.userIP || '',
+                        key.isAdmin ? 'TRUE' : 'FALSE',
+                        key.createdAt || new Date().toISOString()
+                    ]);
+                });
+                
+                const url = `https://sheets.googleapis.com/v4/spreadsheets/${GOOGLE_SHEETS_CONFIG.sheetId}/values/${GOOGLE_SHEETS_CONFIG.sheetName}?key=${GOOGLE_SHEETS_CONFIG.apiKey}`;
+                
+                const response = await fetch(url, {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        values: values,
+                        valueInputOption: 'RAW'
+                    })
+                });
+                
+                if (response.ok) {
+                    addLog('Keys saved via API Key (READ ONLY mode)');
+                    return true;
+                }
+                throw new Error('API Key save failed');
+                
+            } catch (error) {
+                throw error;
+            }
+        }
+        
+        async function appendKeysToGoogleSheets(newKeysArray) {
+            try {
+                if (!gapiInited || !gisInited) {
+                    throw new Error('Google APIs not initialized');
+                }
+                
+                // Check if we have token
+                if (!gapi.client.getToken()) {
+                    await getAccessToken();
+                }
+                
+                const values = newKeysArray.map(key => [
+                    key,
+                    'FALSE',  // used
+                    '',       // usedBy
+                    '',       // usedAt
+                    '',       // userIP
+                    'FALSE',  // isAdmin
+                    new Date().toISOString()  // createdAt
+                ]);
+                
+                const response = await gapi.client.sheets.spreadsheets.values.append({
+                    spreadsheetId: GOOGLE_SHEETS_CONFIG.sheetId,
+                    range: GOOGLE_SHEETS_CONFIG.sheetName,
+                    valueInputOption: 'RAW',
+                    insertDataOption: 'INSERT_ROWS',
+                    resource: { values }
+                });
+                
+                addLog(`${newKeysArray.length} keys appended to Google Sheets`);
+                return true;
+                
+            } catch (error) {
+                console.error('Append keys error:', error);
+                return false;
+            }
+        }
+        
+        async function getAccessToken() {
+            return new Promise((resolve, reject) => {
+                tokenClient.callback = async (resp) => {
+                    if (resp.error !== undefined) {
+                        reject(resp);
+                    }
+                    resolve(resp);
+                };
+                
+                if (gapi.client.getToken() === null) {
+                    tokenClient.requestAccessToken({ prompt: 'consent' });
+                } else {
+                    tokenClient.requestAccessToken({ prompt: '' });
+                }
+            });
+        }
+        
+        // ============================================
+        // LOCAL STORAGE FALLBACK
+        // ============================================
+        function loadKeysFromLocalStorage() {
+            const saved = localStorage.getItem('bigbull_keys');
+            if (saved) {
+                CONFIG.keys = JSON.parse(saved);
+                addLog(`Loaded ${CONFIG.keys.length} keys from local storage`);
+            }
+            updateTotalKeysCount();
+        }
+        
+        function saveKeysToLocalStorage() {
+            localStorage.setItem('bigbull_keys', JSON.stringify(CONFIG.keys));
+            updateTotalKeysCount();
+        }
+        
+        // ============================================
+        // USER FUNCTIONS
+        // ============================================
+        async function getUserIP() {
+            try {
+                const response = await fetch('https://api.ipify.org?format=json');
+                const data = await response.json();
+                userIP = data.ip;
+                isAdminIP = CONFIG.adminIPs.includes(userIP);
+                
+                if (isAdminIP) {
+                    addLog(`Admin IP detected: ${userIP}`, 'admin');
+                    nextKeyTimer.textContent = 'ADMIN MODE';
+                    nextKeyTimer.style.color = '#00ffff';
+                } else {
+                    addLog(`User IP: ${userIP}`);
+                }
+                localStorage.setItem('bigbull_user_ip', userIP);
+            } catch (error) {
+                const storedIP = localStorage.getItem('bigbull_user_ip');
+                userIP = storedIP || `192.168.${Math.floor(Math.random() * 255)}.${Math.floor(Math.random() * 255)}`;
+                isAdminIP = CONFIG.adminIPs.includes(userIP);
+            }
+        }
+        
+        function checkRateLimit() {
+            if (isAdminIP) {
+                nextKeyTimer.textContent = 'ADMIN MODE';
+                nextKeyTimer.style.color = '#00ffff';
+                generateBtn.disabled = false;
+                getPasswordBtn.disabled = false;
+                return true;
+            }
+            
+            const lastKeyTime = localStorage.getItem(`bigbull_last_key_time_${userIP}`);
+            if (!lastKeyTime) {
+                nextKeyTimer.textContent = 'READY';
+                generateBtn.disabled = false;
+                getPasswordBtn.disabled = false;
+                return true;
+            }
+            
+            const timeDiff = Date.now() - parseInt(lastKeyTime);
+            const hoursDiff = timeDiff / (1000 * 60 * 60);
+            
+            if (hoursDiff >= CONFIG.rateLimitHours) {
+                nextKeyTimer.textContent = 'READY';
+                generateBtn.disabled = false;
+                getPasswordBtn.disabled = false;
+                return true;
+            } else {
+                const remainingMinutes = Math.ceil((CONFIG.rateLimitHours - hoursDiff) * 60);
+                nextKeyTimer.textContent = `${remainingMinutes}m`;
+                nextKeyTimer.style.color = '#ff4444';
+                generateBtn.disabled = true;
+                getPasswordBtn.disabled = false;
+                return false;
+            }
+        }
+        
+        function updateRateLimitTimer() {
+            setInterval(() => {
+                if (isAdminIP) return;
+                checkRateLimit();
+                
+                const lastKeyTime = localStorage.getItem(`bigbull_last_key_time_${userIP}`);
+                if (lastKeyTime) {
+                    const timeDiff = Date.now() - parseInt(lastKeyTime);
+                    const hoursDiff = timeDiff / (1000 * 60 * 60);
+                    
+                    if (hoursDiff < CONFIG.rateLimitHours) {
+                        const remainingSeconds = Math.ceil((CONFIG.rateLimitHours * 3600) - (timeDiff / 1000));
+                        const hours = Math.floor(remainingSeconds / 3600);
+                        const minutes = Math.floor((remainingSeconds % 3600) / 60);
+                        const seconds = remainingSeconds % 60;
+                        
+                        nextKeyTimer.textContent = 
+                            `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                    }
+                }
+            }, 1000);
+        }
+        
+        function showRateLimitPopup() {
+            if (isAdminIP) return;
+            
+            const lastKeyTime = localStorage.getItem(`bigbull_last_key_time_${userIP}`);
+            if (!lastKeyTime) return;
+            
+            const endTime = parseInt(lastKeyTime) + (CONFIG.rateLimitHours * 60 * 60 * 1000);
+            
+            function updatePopupTimer() {
+                const now = Date.now();
+                const remaining = endTime - now;
+                
+                if (remaining <= 0) {
+                    rateLimitPopup.classList.remove('active');
+                    checkRateLimit();
+                    return;
+                }
+                
+                const hours = Math.floor(remaining / (1000 * 60 * 60));
+                const minutes = Math.floor((remaining % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((remaining % (1000 * 60)) / 1000);
+                
+                rateLimitTimer.textContent = 
+                    `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                
+                setTimeout(updatePopupTimer, 1000);
+            }
+            
+            rateLimitPopup.classList.add('active');
+            updatePopupTimer();
+        }
+        
+        function addLog(message, type = 'info') {
+            const now = new Date();
+            const timeString = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', second:'2-digit'});
+            
+            const logEntry = document.createElement('div');
+            logEntry.className = `log-entry ${type}`;
+            logEntry.innerHTML = `<span class="log-time">[${timeString}]</span> ${message}`;
+            
+            systemLogs.appendChild(logEntry);
+            
+            while (systemLogs.children.length > 8) {
+                systemLogs.removeChild(systemLogs.firstChild);
+            }
+            
+            systemLogs.scrollTop = systemLogs.scrollHeight;
+        }
+        
+        function startFakeLogs() {
+            const messages = [
+                'Database connection stable',
+                'Security check passed',
+                'System monitoring active',
+                'Google Sheets sync active',
+                'Network latency: 28ms',
+                'Encryption active',
+                'Firewall status: OK',
+                'Backup system ready',
+                'User authentication ready',
+                'Key generation system active'
+            ];
+            
+            setInterval(() => {
+                if (Math.random() > 0.7 && systemLogs.children.length < 10) {
+                    const randomIndex = Math.floor(Math.random() * messages.length);
+                    addLog(messages[randomIndex]);
+                }
+            }, 15000);
+        }
+        
+        function getPassword() {
+            if (!isAdminIP && !checkRateLimit()) {
+                addLog('ERROR: Rate limit active', 'warning');
+                showRateLimitPopup();
+                return;
+            }
+            
+            addLog('User requested access password');
+            addLog('Redirecting to verification portal...');
+            
+            redirectOverlay.classList.add('active');
+            
+            let countdown = 5;
+            const interval = setInterval(() => {
+                countdownTimer.textContent = countdown;
+                countdown--;
+                
+                if (countdown < 0) {
+                    clearInterval(interval);
+                    addLog('Redirecting...');
+                    setTimeout(() => {
+                        window.location.href = CONFIG.shortlinkUrl;
+                    }, 500);
+                }
+            }, 1000);
+        }
+        
+        async function generateKey() {
+            if (!isAdminIP && !checkRateLimit()) {
+                addLog('ERROR: Rate limit active', 'warning');
+                showRateLimitPopup();
+                return;
+            }
+            
+            const password = userPassword.value.trim();
+            if (!password) {
+                addLog('ERROR: No password entered', 'error');
+                alert('Please enter password!');
+                return;
+            }
+            
+            if (password !== CONFIG.userPassword) {
+                addLog('ERROR: Wrong password', 'error');
+                showWrongPasswordPopup();
+                return;
+            }
+            
+            if (CONFIG.keys.length === 0) {
+                addLog('ERROR: No keys available', 'error');
+                alert('No keys available! Admin must add keys.');
+                return;
+            }
+            
+            addLog('Password verified successfully');
+            addLog('Searching for available key...');
+            
+            const unusedKey = CONFIG.keys.find(k => !k.used);
+            if (!unusedKey) {
+                addLog('ERROR: All keys used', 'error');
+                alert('All keys have been used!');
+                return;
+            }
+            
+            unusedKey.used = true;
+            unusedKey.usedBy = getUserId();
+            unusedKey.usedAt = new Date().toISOString();
+            unusedKey.userIP = userIP;
+            unusedKey.isAdmin = isAdminIP;
+            
+            await saveKeysToGoogleSheets();
+            
+            if (!isAdminIP) {
+                localStorage.setItem(`bigbull_last_key_time_${userIP}`, Date.now().toString());
+            }
+            
+            keyValue.textContent = unusedKey.key;
+            keyDisplay.classList.add('active');
+            
+            if (isAdminIP) {
+                addLog(`ADMIN: Key ${unusedKey.key} generated`, 'admin');
+            } else {
+                addLog(`SUCCESS: Key ${unusedKey.key} generated`);
+                addLog(`IP ${userIP} rate limit started`);
+            }
+            
+            userPassword.value = '';
+            checkRateLimit();
+            keyDisplay.scrollIntoView({ behavior: 'smooth' });
+            updateAdminPanel();
+        }
+        
+        function copyKey() {
+            const key = keyValue.textContent;
+            const originalText = copyBtn.innerHTML;
+            
+            navigator.clipboard.writeText(key).then(() => {
+                copyBtn.innerHTML = '<i class="fas fa-check"></i> COPIED!';
+                copyBtn.style.background = 'rgba(0, 255, 0, 0.1)';
+                copyBtn.style.borderColor = '#00ff00';
+                copyBtn.style.color = '#00ff00';
+                
+                addLog('Key copied to clipboard');
+                
+                setTimeout(() => {
+                    copyBtn.innerHTML = originalText;
+                    copyBtn.style.background = '';
+                    copyBtn.style.borderColor = '';
+                    copyBtn.style.color = '';
+                }, 2000);
+            });
+        }
+        
+        function showWrongPasswordPopup() {
+            wrongPasswordPopup.classList.add('active');
+        }
+        
+        function closeWrongPasswordPopup() {
+            wrongPasswordPopup.classList.remove('active');
+            getPassword();
+        }
+        
+        // ============================================
+        // ADMIN FUNCTIONS
+        // ============================================
+        function openAdminPanel() {
+            adminPanel.classList.add('active');
+            adminPassword.value = '';
+            adminLoginForm.style.display = 'block';
+            adminDashboard.classList.remove('active');
+            
+            shortlinkUrl.value = CONFIG.shortlinkUrl;
+            userPasswordInput.value = CONFIG.userPassword;
+            newUserPassword.value = '';
+            adminIP.value = CONFIG.adminIPs[0];
+            
+            addLog('Admin panel accessed', 'admin');
+        }
+        
+        function closeAdminPanel() {
+            adminPanel.classList.remove('active');
+        }
+        
+        function checkAdminSession() {
+            const isAdmin = localStorage.getItem('bigbull_admin_logged_in');
+            if (isAdmin === 'true') {
+                adminLoginForm.style.display = 'none';
+                adminDashboard.classList.add('active');
+                updateAdminPanel();
+            }
+        }
+        
+        function loginAdmin() {
+            const password = adminPassword.value.trim();
+            
+            if (password === CONFIG.adminPassword) {
+                localStorage.setItem('bigbull_admin_logged_in', 'true');
+                adminLoginForm.style.display = 'none';
+                adminDashboard.classList.add('active');
+                updateAdminPanel();
+                adminPassword.value = '';
+                
+                addLog('Admin login successful', 'admin');
+            } else {
+                addLog('ERROR: Wrong admin password', 'error');
+                alert('Wrong password!');
+                adminPassword.value = '';
+            }
+        }
+        
+        function logoutAdmin() {
+            localStorage.removeItem('bigbull_admin_logged_in');
+            adminDashboard.classList.remove('active');
+            adminLoginForm.style.display = 'block';
+            addLog('Admin logged out');
+        }
+        
+        function updateAdminIP() {
+            const newAdminIP = adminIP.value.trim();
+            
+            if (!newAdminIP) {
+                alert('Please enter admin IP!');
+                return;
+            }
+            
+            CONFIG.adminIPs = [newAdminIP];
+            localStorage.setItem('bigbull_admin_ips', JSON.stringify(CONFIG.adminIPs));
+            
+            isAdminIP = CONFIG.adminIPs.includes(userIP);
+            
+            if (isAdminIP) {
+                nextKeyTimer.textContent = 'ADMIN MODE';
+                nextKeyTimer.style.color = '#00ffff';
+                addLog(`Admin IP updated to: ${newAdminIP}`, 'admin');
+            }
+            
+            alert('Admin IP updated!');
+        }
+        
+        function changeUserPassword() {
+            const newPassword = newUserPassword.value.trim();
+            
+            if (!newPassword) {
+                alert('Please enter new password!');
+                return;
+            }
+            
+            CONFIG.userPassword = newPassword;
+            localStorage.setItem('bigbull_user_password', newPassword);
+            userPasswordInput.value = newPassword;
+            newUserPassword.value = '';
+            
+            addLog(`User password changed to: ${newPassword}`, 'admin');
+            alert('User password updated!');
+        }
+        
+        function saveShortlink() {
+            const url = shortlinkUrl.value.trim();
+            if (!url) {
+                alert('Please enter URL!');
+                return;
+            }
+            
+            CONFIG.shortlinkUrl = url;
+            localStorage.setItem('bigbull_shortlink_url', url);
+            addLog(`Shortlink updated to: ${url}`, 'admin');
+            alert('Shortlink saved!');
+        }
+        
+        async function addKeys() {
+            const input = adminKeysInput.value.trim();
+            if (!input) {
+                alert('Please enter keys!');
+                return;
+            }
+            
+            const keysArray = input.split('\n')
+                .map(line => line.trim())
+                .filter(line => line.length > 0);
+            
+            if (keysArray.length === 0) {
+                alert('No valid keys!');
+                return;
+            }
+            
+            addLog(`Processing ${keysArray.length} keys...`, 'admin');
+            
+            // Create new key objects
+            const newKeyObjects = keysArray.map(key => ({
+                key: key,
+                used: false,
+                usedBy: '',
+                usedAt: '',
+                userIP: '',
+                isAdmin: false,
+                createdAt: new Date().toISOString()
+            }));
+            
+            // Add to CONFIG
+            CONFIG.keys.push(...newKeyObjects);
+            
+            // Try to save to Google Sheets with OAuth
+            let googleSheetsSuccess = false;
+            
+            try {
+                if (gapiInited && gisInited) {
+                    googleSheetsSuccess = await appendKeysToGoogleSheets(keysArray);
+                    if (googleSheetsSuccess) {
+                        // Also update full sheet
+                        await saveKeysToGoogleSheets();
+                    }
+                }
+            } catch (error) {
+                console.error('OAuth save failed:', error);
+            }
+            
+            // If OAuth failed, try API key method
+            if (!googleSheetsSuccess) {
+                googleSheetsSuccess = await saveKeysViaAPIKey();
+            }
+            
+            if (googleSheetsSuccess) {
+                const available = CONFIG.keys.filter(k => !k.used).length;
+                addLog(`✅ Added ${keysArray.length} keys to Google Sheets`, 'admin');
+                addLog(`Total keys: ${CONFIG.keys.length}, Available: ${available}`, 'admin');
+                
+                alert(`✅ Added ${keysArray.length} keys!\nTotal: ${CONFIG.keys.length}\nAvailable: ${available}`);
+                
+                adminKeysInput.value = '';
+                updateAdminPanel();
+            } else {
+                // Fallback to local storage
+                saveKeysToLocalStorage();
+                const available = CONFIG.keys.filter(k => !k.used).length;
+                addLog(`⚠️ Added ${keysArray.length} keys to local storage`, 'admin');
+                
+                alert(`⚠️ Google Sheets failed!\nAdded ${keysArray.length} keys to local storage.\nTotal: ${CONFIG.keys.length}\nAvailable: ${available}`);
+                
+                adminKeysInput.value = '';
+                updateAdminPanel();
+            }
+        }
+        
+        async function clearAllKeys() {
+            const confirmation = confirm('⚠️ DELETE ALL KEYS?\n\nThis will delete from Google Sheets!\nThis cannot be undone!');
+            if (!confirmation) {
+                addLog('Key clear cancelled', 'warning');
+                return;
+            }
+            
+            const total = CONFIG.keys.length;
+            const used = CONFIG.keys.filter(k => k.used).length;
+            const available = CONFIG.keys.filter(k => !k.used).length;
+            
+            CONFIG.keys = [];
+            
+            // Try to clear from Google Sheets
+            let googleSheetsSuccess = false;
+            try {
+                googleSheetsSuccess = await saveKeysToGoogleSheets();
+            } catch (error) {
+                console.error('Clear sheets error:', error);
+            }
+            
+            if (googleSheetsSuccess) {
+                addLog(`Cleared ${total} keys from Google Sheets`, 'admin');
+                addLog(`Removed ${used} used, ${available} available`, 'admin');
+                
+                alert(`✅ Cleared ${total} keys from Google Sheets!\nUsed: ${used}\nAvailable: ${available}`);
+            } else {
+                // Fallback to local storage only
+                saveKeysToLocalStorage();
+                addLog(`Cleared ${total} keys from local storage`, 'admin');
+                
+                alert(`⚠️ Cleared ${total} keys from local storage only!\nGoogle Sheets not updated.\nUsed: ${used}\nAvailable: ${available}`);
+            }
+            
+            updateAdminPanel();
+        }
+        
+        function updateAdminPanel() {
+            keysList.innerHTML = '';
+            
+            const displayKeys = CONFIG.keys.slice(-10).reverse();
+            
+            displayKeys.forEach((keyData) => {
+                const keyItem = document.createElement('div');
+                keyItem.className = 'key-item';
+                
+                const ipInfo = keyData.userIP ? 
+                    `<div style="color: ${keyData.isAdmin ? '#00ffff' : '#666'}; font-size: 0.75rem;">
+                        ${keyData.userIP} ${keyData.isAdmin ? '(ADMIN)' : ''}
+                    </div>` : '';
+                
+                keyItem.innerHTML = `
+                    <div>
+                        <div class="key-text">${keyData.key}</div>
+                        ${ipInfo}
+                    </div>
+                    <div class="key-status ${keyData.used ? 'status-used' : 'status-available'}">
+                        ${keyData.used ? 'USED' : 'READY'}
+                    </div>
+                `;
+                
+                keysList.appendChild(keyItem);
+            });
+            
+            updateTotalKeysCount();
+        }
+        
+        function updateTotalKeysCount() {
+            const total = CONFIG.keys.length;
+            const available = CONFIG.keys.filter(k => !k.used).length;
+            const used = total - available;
+            
+            if (totalKeysCount) {
+                totalKeysCount.textContent = `${total} (${available} available, ${used} used)`;
+            }
+        }
+        
+        // ============================================
+        // UTILITY FUNCTIONS
+        // ============================================
+        function getUserId() {
+            let userId = localStorage.getItem('bigbull_user_id');
+            if (!userId) {
+                userId = 'USER-' + Math.random().toString(36).substr(2, 9).toUpperCase();
+                localStorage.setItem('bigbull_user_id', userId);
+                addLog(`New user session: ${userId}`);
+            }
+            return userId;
+        }
+        
+        function loadSettings() {
+            const savedShortlink = localStorage.getItem('bigbull_shortlink_url');
+            if (savedShortlink) CONFIG.shortlinkUrl = savedShortlink;
+            
+            const savedUserPassword = localStorage.getItem('bigbull_user_password');
+            if (savedUserPassword) CONFIG.userPassword = savedUserPassword;
+            
+            const savedAdminPassword = localStorage.getItem('bigbull_admin_password');
+            if (savedAdminPassword) CONFIG.adminPassword = savedAdminPassword;
+            
+            const savedAdminIPs = localStorage.getItem('bigbull_admin_ips');
+            if (savedAdminIPs) CONFIG.adminIPs = JSON.parse(savedAdminIPs);
+        }
+    </script>
+</body>
+</html>
